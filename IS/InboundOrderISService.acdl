@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="InboundOrderISService" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.53" />
-  <buildInfo name="BuildVersion" value="1.0.53" />
-  <buildInfo name="BuildTimestamp" value="2018-06-28T16:45:57" />
+  <buildInfo name="build.version" value="1.0.54" />
+  <buildInfo name="BuildVersion" value="1.0.54" />
+  <buildInfo name="BuildTimestamp" value="2018-06-28T16:46:42" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
