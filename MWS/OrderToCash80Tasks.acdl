@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asset_composite name="OrderToCash80Tasks" displayName="OrderToCash80Tasks" runtimeVersion="10.2.0.0000-0226" targetNamespace="http://namespaces.softwareag.com/webMethods/MWS" xmlns="http://namespaces.softwareag.com/acdl/1.0" xmlns:EDA="http://namespaces.softwareag.com/webMethods/EDA" xmlns:MWS="http://namespaces.softwareag.com/webMethods/MWS" xmlns:IS="http://namespaces.softwareag.com/webMethods/IS" xmlns:APIPORTAL="http://namespaces.softwareag.com/webMethods/APIPORTAL" xmlns:AgileApps="http://namespaces.softwareag.com/webMethods/AgileApps" xmlns:BROKER="http://namespaces.softwareag.com/webMethods/BROKER" xmlns:implDetails="http://namespaces.softwareag.com/acdl/implDetails" xmlns:UniversalMessaging="http://namespaces.softwareag.com/webMethods/UniversalMessaging" xmlns:TN="http://namespaces.softwareag.com/webMethods/TN" xmlns:RULES="http://namespaces.softwareag.com/webMethods/RULES" xmlns:BPM="http://namespaces.softwareag.com/webMethods/BPM" xmlns:Optimize="http://namespaces.softwareag.com/webMethods/Optimize">
+    <implementation.generic type="war"/>
+    <buildInfo name="build_timestamp" value="2018-07-02T14:50:31"/>
+    <buildInfo name="build_version" value="1.0.72"/>
+    <buildInfo name="extraction_host" value="buildserver"/>
+    <buildInfo name="extraction_timestamp" value="2018-07-02T02:50:35"/>
+    <asset name="CAFApp.OrderToCash80Tasks" displayName="OrderToCash80Tasks" isDeployable="false">
+        <implementation.generic type="CAFApp"/>
+    </asset>
+    <asset name="Portlet.ordertocash80tasks___improvedmanualcreditcheckview" displayName="ImprovedManualCreditCheckView" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.ordertocash80tasks___improvedmanualcreditcheckoverview" displayName="ImprovedManualCreditCheckOverview" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.ordertocash80tasks___improvedmanualcreditcheckstart" displayName="ImprovedManualCreditCheckStart" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.ordertocash80tasks___improvedmanualcreditcheckinboxbar" displayName="ImprovedManualCreditCheckInboxBar" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Portlet.ordertocash80tasks___improvedmanualcreditcheckinboxresults" displayName="ImprovedManualCreditCheckInboxResults" isDeployable="false">
+        <implementation.generic type="Portlet"/>
+    </asset>
+    <asset name="Task.2AE87CCA-E29C-1AA0-6FE1-DD243B5B031F" displayName="Improved Manual Credit Check" isDeployable="false">
+        <implementation.generic type="Task"/>
+    </asset>
+</asset_composite>
