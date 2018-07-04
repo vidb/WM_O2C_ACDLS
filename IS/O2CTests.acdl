@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="O2CTests" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.83" />
-  <buildInfo name="BuildVersion" value="1.0.83" />
-  <buildInfo name="BuildTimestamp" value="2018-07-03T15:25:35" />
+  <buildInfo name="build.version" value="1.0.84" />
+  <buildInfo name="BuildVersion" value="1.0.84" />
+  <buildInfo name="BuildTimestamp" value="2018-07-04T14:15:42" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
