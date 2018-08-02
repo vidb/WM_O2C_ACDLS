@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="OrderToCash" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.108" />
-  <buildInfo name="BuildVersion" value="1.0.108" />
-  <buildInfo name="BuildTimestamp" value="2018-08-02T12:35:54" />
+  <buildInfo name="build.version" value="1.0.109" />
+  <buildInfo name="BuildVersion" value="1.0.109" />
+  <buildInfo name="BuildTimestamp" value="2018-08-02T12:43:53" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
