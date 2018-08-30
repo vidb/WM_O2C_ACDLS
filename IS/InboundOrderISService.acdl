@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="InboundOrderISService" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.110" />
-  <buildInfo name="BuildVersion" value="1.0.110" />
-  <buildInfo name="BuildTimestamp" value="2018-08-13T12:10:59" />
+  <buildInfo name="build.version" value="1.0.111" />
+  <buildInfo name="BuildVersion" value="1.0.111" />
+  <buildInfo name="BuildTimestamp" value="2018-08-30T10:49:03" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -34,7 +34,7 @@
   <asset name="ISPackage.InboundOrderISService" displayName="InboundOrderISService">
     <implementation.generic type="ispackage" />
   </asset>
-  <asset name="ISService.test_aug13_Svc" displayName="ISService:test_aug13_Svc">
+  <asset name="ISService.TestSvc_Aug30" displayName="ISService:TestSvc_Aug30">
     <implementation.generic type="isflowservice" />
   </asset>
   <asset name="ISService.PublishInboundOrder" displayName="ISService:PublishInboundOrder">
