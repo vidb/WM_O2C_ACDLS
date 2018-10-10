@@ -3,8 +3,8 @@
     <implementation.generic type="bpmprocess">
         <implDetails:implementationDetail name="processId" value="OrderToCash/OrderToCashProcess"/>
     </implementation.generic>
-    <buildInfo name="build.timestamp" value="2018-10-10T09:34:49"/>
-    <buildInfo name="build.version" value="1.0.182"/>
+    <buildInfo name="build.timestamp" value="2018-10-10T11:50:56"/>
+    <buildInfo name="build.version" value="1.0.184"/>
     <asset name="Process.OrderToCash_OrderToCashProcess" displayName="OrderToCash/OrderToCashProcess" isDeployable="true">
         <implementation.generic type="bpmprocess">
             <implDetails:implementationDetail name="processId" value="OrderToCash/OrderToCashProcess"/>
