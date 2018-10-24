@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="InboundOrderISService" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.186" />
-  <buildInfo name="BuildVersion" value="1.0.186" />
-  <buildInfo name="BuildTimestamp" value="2018-10-24T10:23:42" />
+  <buildInfo name="build.version" value="1.0.187" />
+  <buildInfo name="BuildVersion" value="1.0.187" />
+  <buildInfo name="BuildTimestamp" value="2018-10-24T13:21:45" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -40,6 +40,9 @@
   <asset name="ISService.PublishInboundOrder" displayName="ISService:PublishInboundOrder">
     <implementation.generic type="isflowservice" />
     <dependsOn>IS:ScOrderToCash.Documents.InboundOrder</dependsOn>
+  </asset>
+  <asset name="ISService.testAddSvcOct24" displayName="ISService:testAddSvcOct24">
+    <implementation.generic type="isflowservice" />
   </asset>
   <asset name="InboundOrderISService.bin" displayName="bin">
     <implementation.generic type="isfolder" />
