@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="ScBAMFramework" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.209" />
-  <buildInfo name="BuildVersion" value="1.0.209" />
-  <buildInfo name="BuildTimestamp" value="2018-11-12T13:58:40" />
+  <buildInfo name="build.version" value="1.0.210" />
+  <buildInfo name="BuildVersion" value="1.0.210" />
+  <buildInfo name="BuildTimestamp" value="2018-11-12T14:23:00" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
