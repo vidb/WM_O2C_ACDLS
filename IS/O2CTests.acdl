@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="O2CTests" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.195" />
-  <buildInfo name="BuildVersion" value="1.0.195" />
-  <buildInfo name="BuildTimestamp" value="2018-11-09T15:33:46" />
+  <buildInfo name="build.version" value="1.0.196" />
+  <buildInfo name="BuildVersion" value="1.0.196" />
+  <buildInfo name="BuildTimestamp" value="2018-11-12T09:06:56" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -146,6 +146,9 @@
   </asset>
   <asset name="O2CTests.code.classes" displayName="code/classes">
     <implementation.generic type="isfolder" />
+  </asset>
+  <asset name="O2CTests.code.classes..gitignore" displayName="code/classes/.gitignore">
+    <implementation.generic type="isfile" />
   </asset>
   <asset name="O2CTests.code.classes.dbAdapter.class" displayName="code/classes/dbAdapter.class">
     <implementation.generic type="isfile" />
