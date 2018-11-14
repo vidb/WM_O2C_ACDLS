@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="ScOrderToCash" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.253" />
-  <buildInfo name="BuildVersion" value="1.0.253" />
-  <buildInfo name="BuildTimestamp" value="2018-11-14T12:16:49" />
+  <buildInfo name="build.version" value="1.0.254" />
+  <buildInfo name="BuildVersion" value="1.0.254" />
+  <buildInfo name="BuildTimestamp" value="2018-11-14T12:21:51" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -37,7 +37,6 @@
   <asset name="ScOrderToCash.Services._1_receiveOrder" displayName="ScOrderToCash.Services:_1_receiveOrder">
     <implementation.generic type="isflowservice" />
     <dependsOn>IS:ScOrderToCash.Documents.InboundOrder</dependsOn>
-    <dependsOn>IS:ISService.newSvcForRecieveOrder</dependsOn>
   </asset>
   <asset name="ScOrderToCash.Services._7_updateBackEnd" displayName="ScOrderToCash.Services:_7_updateBackEnd">
     <implementation.generic type="isflowservice" />
@@ -65,9 +64,6 @@
     <dependsOn>IS:ScOrderToCash.Documents.PurchaseOrder</dependsOn>
     <dependsOn>IS:ScJDBC.Orders.insertOrderHeader</dependsOn>
     <dependsOn>IS:ScJDBC.Orders.insertOrderLineItems</dependsOn>
-  </asset>
-  <asset name="ScOrderToCash.Services.testSvc" displayName="ScOrderToCash.Services:testSvc">
-    <implementation.generic type="isflowservice" />
   </asset>
   <asset name="ScOrderToCash.Services._3A_autoCreditCheck" displayName="ScOrderToCash.Services:_3A_autoCreditCheck">
     <implementation.generic type="isflowservice" />
