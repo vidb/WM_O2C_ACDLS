@@ -1,8 +1,8 @@
 <asset_composite xmlns="http://namespaces.softwareag.com/acdl/1.0" targetNamespace="http://namespaces.softwareag.com/webMethods/IS" name="ScOrderToCash" runtimeVersion="10.2.0.0">
   <implementation.generic type="ispackage" />
-  <buildInfo name="build.version" value="1.0.258" />
-  <buildInfo name="BuildVersion" value="1.0.258" />
-  <buildInfo name="BuildTimestamp" value="2018-11-14T13:19:53" />
+  <buildInfo name="build.version" value="1.0.259" />
+  <buildInfo name="BuildVersion" value="1.0.259" />
+  <buildInfo name="BuildTimestamp" value="2018-11-14T13:40:52" />
   <buildInfo name="MinimumTargetRuntimeVersion" value="10.2.0.0" />
   <property name="activatePkgOnInstall" displayName="Activate Package On Install">
     <value>true</value>
@@ -73,6 +73,9 @@
   <asset name="ScOrderToCash.Services._2_validateOrder" displayName="ScOrderToCash.Services:_2_validateOrder">
     <implementation.generic type="isflowservice" />
     <dependsOn>IS:ScOrderToCash.Documents.InboundOrder</dependsOn>
+  </asset>
+  <asset name="ScOrderToCash.Services.svcForBusinessChange1" displayName="ScOrderToCash.Services:svcForBusinessChange1">
+    <implementation.generic type="isflowservice" />
   </asset>
   <asset name="ScOrderToCash.Services._3C_cancelledOrder" displayName="ScOrderToCash.Services:_3C_cancelledOrder">
     <implementation.generic type="isflowservice" />
